@@ -15,7 +15,7 @@ int main(void){
     cin >> horasextra;
     cout << "\n"; 
 
-    salariototal = (horastrabajadas*1.75)+(horasextra*2.30);
+    salariototal = (horastrabajadas*1.75)+(horasextra*2.50);
     cout << "Tu salario total es de $ " << salariototal << endl;
 
     if (salariototal > 500){
